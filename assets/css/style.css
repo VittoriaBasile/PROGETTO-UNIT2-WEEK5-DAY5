@@ -143,64 +143,76 @@ main{
     
 }
 
-.container{
+.container {
     display: flex;
-    justify-content: flex-start;
-    width: 600px;
-    
-
-}
-
-.testo{
+    max-width: 750px;
+    margin-top: 4rem;
+    align-items: center;
+    margin-left: 6rem;
+  }
+  
+ .testo, .container img{
     display: inline-block;
-    width: 500px;
-}
-.img{
-    display: inline-block;
+ }
+
+ .testo{
+    width: 300px;
+    flex-grow: 1;
+    line-height: 2rem;
+ }
+
+ .immagine{
     width: 200px;
-    margin-inline: 2rem;
-    
-    
+ }
+
+ .utente{
+    display: flex;
+    align-items: center;
+ }
+
+ .profilo{
+    width: 30px;
+    height: 30px;
+ }
+ .fonte1{
+    font-size: 15px;
+    font-weight: bold;
+ }
+ .titolo{
+    font-size: 20px;
+    font-weight: bold;
+ }
+ .paragrafo{
+    font-size: 17px;
+    color:#767679 ;
+    line-height: 1.2rem;
+ }
+ 
+ .testo button{
+    color: #767679;
+    background-color:#f2f2f2 ;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    font-size: 10px;
+    padding-inline: 0.5rem;
+    padding-block: 0;
 }
-.uno{
 
-   
-
-}
-.due{
+ .rigaData{
+    display: flex;
+ }
+ .data{
+    font-size: 15px;
+    color: #767679;
     
-    
-}
-.tre{
-   
-    
-}
-.quattro{
-   
-    
-}
-.cinque{
-    
-    
-}
-.sei{
-   
-    
-}
-.sette{
-    
-    
-}
+ }
 
+ .star{
+    margin-right: 15rem;
+ }
+ .bookmark{
+    margin-top: 4rem;
+    margin-right: 1rem;
+ }
 
-
-
-
-
-
-
-
-
-
-
-
+ 
