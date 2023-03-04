@@ -143,13 +143,25 @@ main{
     
 }
 
+aside{
+    display: flex;
+    flex-direction: row;
+    width: 900px;
+    margin: 0;
+    position: relative;
+    height: 800px;
+    overflow: auto;
+    float: left;
+}
+
 .container {
     display: flex;
-    max-width: 750px;
+    max-width: 500px;
     margin-top: 4rem;
     align-items: center;
     margin-left: 6rem;
   }
+
   
  .testo, .container img{
     display: inline-block;
@@ -214,5 +226,34 @@ main{
     margin-top: 4rem;
     margin-right: 1rem;
  }
+
+ .firstContainer{
+    
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    width: 50%;
+    height: 800px;
+    
+
+   
+ }
+ .secondContainer{
+    display: inline-block;
+    width: 50%;
+    position: sticky;
+    left: 100%;
+    top: 70px;
+    bottom: 100px; 
+ }
+ .collegamenti{
+    display: inline-block;
+    flex-wrap: wrap;
+    width: 400px;
+    margin-inline: 4rem;
+}
+
+
+ 
 
  
