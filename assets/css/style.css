@@ -145,18 +145,16 @@ main{
 
 aside{
     display: flex;
-    flex-direction: row;
-    width: 900px;
-    margin: 0;
+
+    width: 750px;
     position: relative;
-    height: 800px;
     overflow: auto;
     float: left;
 }
 
 .container {
     display: flex;
-    max-width: 500px;
+    
     margin-top: 4rem;
     align-items: center;
     margin-left: 6rem;
@@ -168,13 +166,13 @@ aside{
  }
 
  .testo{
-    width: 300px;
+    width: 400px;
     flex-grow: 1;
     line-height: 2rem;
  }
 
  .immagine{
-    width: 200px;
+    width: 220px;
  }
 
  .utente{
@@ -206,8 +204,6 @@ aside{
     border-radius: 10px;
     border: 1px solid transparent;
     font-size: 10px;
-    padding-inline: 0.5rem;
-    padding-block: 0;
 }
 
  .rigaData{
@@ -216,15 +212,15 @@ aside{
  .data{
     font-size: 15px;
     color: #767679;
-    
+    display: flex;
+    justify-content: baseline;
  }
 
  .star{
-    margin-right: 15rem;
+  
  }
  .bookmark{
-    margin-top: 4rem;
-    margin-right: 1rem;
+    margin-top: 7.5rem;
  }
 
  .firstContainer{
@@ -232,8 +228,6 @@ aside{
     display: flex;
     flex-direction: column;
     align-content: flex-start;
-    width: 50%;
-    height: 800px;
     
 
    
@@ -241,16 +235,37 @@ aside{
  .secondContainer{
     display: inline-block;
     width: 50%;
+    margin: 2rem auto;
     position: sticky;
-    left: 100%;
-    top: 70px;
-    bottom: 100px; 
+    left: 45%;
+    bottom: 150px; 
  }
  .collegamenti{
-    display: inline-block;
+    display: flex;
     flex-wrap: wrap;
     width: 400px;
-    margin-inline: 4rem;
+    height: 200px;
+    margin-inline: 15rem;
+    row-gap: 0.5rem;
+    column-gap: 0.5rem;
+    
+}
+
+.collegamenti button{
+    background-color:white ;
+    color: #767679;
+    border: 1px solid #f2f2f2;
+    padding: 0.7rem;
+    line-height: 0.5rem;
+}
+
+.button{
+ display: flex;
+ flex-wrap: wrap;
+ width: 400px;
+ height: 200px;
+ row-gap: 0.5rem;
+    column-gap: 0.5rem;
 }
 
 
