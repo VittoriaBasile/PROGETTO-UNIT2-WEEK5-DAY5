@@ -91,57 +91,101 @@ main{
     padding: 0.5rem 1.3rem;
 }
 
-.tranding{
-    font-size: 20px;
+
+.tranding img, h2{
+display: inline-block;
 }
-.article{
+.tranding{
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+}
+
+
+.Article{
     display: flex;
     flex-wrap: wrap;
+    height:300px ;
     justify-content: center;
     align-items: center;
+
     column-gap: 3rem;
-    row-gap: 2rem;
-   
-}
-
-.column{
     
-    width: 300px;
+}
+.tandingArticle{
+display: flex;
+justify-content: center;
+align-items: center;
+
+
 }
 
-.article1 .article2 .article3 .article4 .article5 .article6{
-    display: flex;
-    flex-wrap: wrap;
-    width: 400px;
-    height: 100px;
-   
-}
-
-.article1 .article2 .article3 .article4 .article5 .article6 > p:first-Child{
+.containerArticle{
     display: flex;
     justify-content: center;
+    align-content: center;
+    width: 330px ;
+    height: 100px;
+}
 
+
+.article{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    line-height: 2rem;
+}
+.article div{
+    display: flex;
+    flex-wrap: wrap;
+    width: 320px ;
+    height: 90px;
 }
 
 .numero{
+    display: inline-block;
     font-size: 30px;
     color: rgba(230, 230, 230, 1);
+    position: absolute;
+    bottom: 4.5rem;
+    left: -3rem;
 }
+
+.utente1{
+    display: inline-block;
+}
+
+.utente1 img{
+margin-right: 0.5rem;
+}
+
+
+
 
 .fonte{
     font-size: 15px;
 }
 
-.article img{
+.titolo1{
+    font-weight: bold;
+    line-height: 1.2rem;
+}
+
+.foto{
     width: 20px;
     height: 20px;
 }
 
-.article a{
-    font-weight: bold;
-    font-size: 16px;
-    
+.rigaData1{
+    display: flex;
+    align-items: center;
 }
+.star{
+    width: 17.5px;
+    height: 17.5px;
+}
+
 
 aside{
     display: flex;
@@ -172,7 +216,7 @@ aside{
  }
 
  .immagine{
-    width: 220px;
+    width: 200px;
  }
 
  .utente{
@@ -208,6 +252,7 @@ aside{
 
  .rigaData{
     display: flex;
+    align-items: center;
  }
  .data{
     font-size: 15px;
@@ -216,11 +261,10 @@ aside{
     justify-content: baseline;
  }
 
- .star{
-  
- }
+ 
  .bookmark{
     margin-top: 7.5rem;
+    margin-right: 1rem;
  }
 
  .firstContainer{
@@ -228,10 +272,12 @@ aside{
     display: flex;
     flex-direction: column;
     align-content: flex-start;
-    
-
+ }   
+.destra{
+position: relative;
+}
    
- }
+ 
  .secondContainer{
     display: inline-block;
     width: 50%;
